@@ -20,3 +20,7 @@ In no particular order
 13. pywal - Bina
 14. swww
 15. cava
+
+## Update [26/10/24]
+
+No longer using Fedora. Tried cachyOS' hyprland install, did not like it. Will revisit another time but for now, completed install of EndeavourOS with manual config import. Feels clean so far.
