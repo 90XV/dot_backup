@@ -12,11 +12,11 @@
 	
 	// general settings
 	"position": "top",
-	"margin-top": 20,
+	"margin-top": 14,
 	"margin-bottom": 0,
 	"layer": "top",
-	"margin-left": 20,
-	"margin-right": 20,    
+	"margin-left": 14,
+	"margin-right": 14,    
 	"spacing": 10,
 	"fixed-center": true,
 	"exclusive": true,

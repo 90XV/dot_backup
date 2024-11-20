@@ -1,0 +1,21 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+alias projs='cd /home/vskf/.virtualenvs/projs'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias school='cd ~/Documents/school'
+alias pinger='ping -c 2500 -i 3 google.com'
+alias byebye='sudo shutdown -h now'
+alias docpro='cd Documents/projs'
+alias hypr='nvim ~/.config/hypr/hyprland.conf'
+
+PS1='[\u@\h \W]\$ '
+. "$HOME/.cargo/env"
+# export PATH="$PATH:/home/vskf/swww/target/release/swww-daemon"
+export PATH="$PATH:/home/vskf/swww/target/release"
+export PATH="$PATH:/home/vskf/.bin"
+eval "$(starship init bash)"
